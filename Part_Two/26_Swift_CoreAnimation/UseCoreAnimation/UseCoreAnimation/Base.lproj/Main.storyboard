@@ -17,52 +17,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJJ-PW-Zke">
-                                <rect key="frame" x="16" y="59" width="305" height="50"/>
+                                <rect key="frame" x="17" y="88" width="223" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="CALayer子类之CAGradientLayer"/>
+                                <buttonConfiguration key="configuration" style="filled" title="色彩渐变CAGradientLayer"/>
                                 <connections>
                                     <action selector="onCAGradientLayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C7f-Wx-dzd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c32-4v-SNA">
-                                <rect key="frame" x="16" y="117" width="305" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="CALayer子类之CAReplicatorLayer"/>
-                                <connections>
-                                    <action selector="onCAReplicatorLayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lTH-zg-oo2"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsu-ca-Dap">
-                                <rect key="frame" x="16" y="175" width="305" height="50"/>
+                                <rect key="frame" x="18" y="204" width="223" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="CALayer子类之CAShapeLayer"/>
+                                <buttonConfiguration key="configuration" style="filled" title="自定义形状CAShapeLayer"/>
                                 <connections>
                                     <action selector="onCAShapeLayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ds2-LQ-93Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyp-ln-5b9">
-                                <rect key="frame" x="16" y="277" width="318" height="50"/>
+                                <rect key="frame" x="16" y="363" width="318" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="基础的属性过渡动画CABasicAnimation"/>
+                                <buttonConfiguration key="configuration" style="filled" title="基础的属性动画CABasicAnimation"/>
                                 <connections>
                                     <action selector="onCABasicAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qi5-Fk-RZK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4FF-LB-Jae">
-                                <rect key="frame" x="16" y="335" width="349" height="50"/>
+                                <rect key="frame" x="16" y="421" width="349" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="关键帧属性过渡动画CAKeyframeAnimation"/>
+                                <buttonConfiguration key="configuration" style="filled" title="关键帧属性动画CAKeyframeAnimation"/>
                                 <connections>
                                     <action selector="onCAKeyframeAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Ou-nQ-G0C"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EE-Ge-Zc5">
-                                <rect key="frame" x="16" y="393" width="339" height="50"/>
+                                <rect key="frame" x="16" y="479" width="339" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="弹簧效果的阻尼动画CASpringAnimation"/>
@@ -71,35 +62,67 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="属性动画CAPropertyAnimation：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zl9-Qf-9g6">
-                                <rect key="frame" x="16" y="240" width="242" height="21"/>
+                                <rect key="frame" x="18" y="327" width="242" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="转场动画CATransition：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fkh-lj-Tip">
-                                <rect key="frame" x="16" y="462" width="174" height="21"/>
+                                <rect key="frame" x="18" y="548" width="174" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAd-bL-w0E">
+                                <rect key="frame" x="18" y="586" width="218" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="转场动画CATransition"/>
+                                <connections>
+                                    <action selector="onCATransition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ak7-hO-jdl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="组合动画CAAnimationGroup：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KM3-TZ-D59">
+                                <rect key="frame" x="17" y="653" width="224" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="图层CALayer：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1A-Gy-xKZ">
+                                <rect key="frame" x="17" y="59" width="109" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c32-4v-SNA">
+                                <rect key="frame" x="17" y="146" width="235" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="图层复制CAReplicatorLayer"/>
+                                <connections>
+                                    <action selector="onCAReplicatorLayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lTH-zg-oo2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lk1-Hk-QFm">
+                                <rect key="frame" x="18" y="262" width="223" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="粒子发射CAEmitterLayer"/>
+                                <connections>
+                                    <action selector="onCAEmitterLayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ase-A8-Fdc"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vdt-vE-DxN">
-                                <rect key="frame" x="16" y="558" width="242" height="50"/>
+                                <rect key="frame" x="16" y="689" width="260" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="组合动画CAAnimationGroup"/>
                                 <connections>
                                     <action selector="onCAAnimationGroup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KzE-5Z-yS5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAd-bL-w0E">
-                                <rect key="frame" x="16" y="500" width="288" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="CATransition类用来创建转场动画"/>
-                                <connections>
-                                    <action selector="onCATransition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ak7-hO-jdl"/>
                                 </connections>
                             </button>
                         </subviews>

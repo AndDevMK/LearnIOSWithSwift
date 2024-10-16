@@ -31,6 +31,12 @@ class ViewController: UIViewController {
         })
     }
 
+    @IBAction func onCAEmitterLayer(_ sender: Any) {
+        present(CAEmitterLayerViewController(), animated: true, completion: {
+            print("切换CAEmitterLayerViewController完成")
+        })
+    }
+    
     @IBAction func onCABasicAnimation(_ sender: Any) {
         present(CABasicAnimationViewController(), animated: true, completion: {
             print("切换CABasicAnimationViewController完成")
